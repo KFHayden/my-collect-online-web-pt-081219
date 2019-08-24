@@ -5,7 +5,7 @@ def my_collect(empty_array)
     collection << yield(empty_array[i])
     i += 1
   end
-  puts collection
+  collection
 end
 
 my_collect(["ruby", "javascript", "python", "objective-c"]) do |lang|
